@@ -1,9 +1,12 @@
 {
-	"name": "otfcc-rebase",
-	"version": "0.1.3",
-	"main": "./index.js",
-	"license": "Apache 2.0",
-	"bin": {
-		"otfcc-rebase": "./rebase.js"
-	}
+  "name": "otfcc-rebase",
+  "version": "0.2.0",
+  "main": "./index.js",
+  "license": "Apache 2.0",
+  "bin": {
+    "otfcc-rebase": "./index.js"
+  },
+  "dependencies": {
+    "megaminx": "^0.7.1"
+  }
 }
